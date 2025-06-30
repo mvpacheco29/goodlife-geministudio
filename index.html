@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO and Social Sharing Meta Tags -->
+    <title>Seguros Goodlife | Proteção para seu Futuro</title>
+    <meta name="description" content="Oferecemos os melhores seguros de vida, viagem e planos odontológicos. Cotação rápida e atendimento personalizado. Fale conosco!" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:title" content="Seguros Goodlife | Proteção para seu Futuro" />
+    <meta property="og:description" content="Oferecemos os melhores seguros de vida, viagem e planos odontológicos. Cotação rápida e atendimento personalizado." />
+    <meta property="og:image" content="https://picsum.photos/1200/630?grayscale&blur=2" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://example.com/" />
+    <meta property="twitter:title" content="Seguros Goodlife | Proteção para seu Futuro" />
+    <meta property="twitter:description" content="Oferecemos os melhores seguros de vida, viagem e planos odontológicos. Cotação rápida e atendimento personalizado." />
+    <meta property="twitter:image" content="https://picsum.photos/1200/630?grayscale&blur=2" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'brand-primary': '#1a2a3a', // Very Dark Blue (Header/Footer)
+              'brand-secondary': '#2c3e50', // Dark Blue (Hero/Text)
+              'brand-accent': '#B87333', // Copper
+              'brand-accent-hover': '#a5622a', // Darker Copper
+              'brand-light': '#fdfdfd', // Off-white background
+              'brand-text': '#FFFFFF', // White text
+              'whatsapp-green': '#25D366',
+              'whatsapp-green-hover': '#128C7E',
+            }
+          }
+        }
+      }
+    </script>
+    <!-- Placeholder for Google Analytics (GA4) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA4_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'YOUR_GA4_ID');
+    </script>
+    -->
+    
+    <!-- Placeholder for Google Tag Manager (GTM) -->
+    <!-- 
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','YOUR_GTM_ID');</script>
+    -->
+    
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.7.0",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.6.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-brand-light">
+    <div id="root"></div>
+    <!-- GTM noscript placeholder -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=YOUR_GTM_ID" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
